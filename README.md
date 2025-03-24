@@ -1,8 +1,21 @@
+# Итоговый проект по курсу "Введение в открытые данные 2025" 
 
-[Тетрадка с кодом](https://github.com/apolesiuk/open_data/blob/main/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D0%9E%D0%BB%D0%B5%D1%81%D0%B8%D1%8E%D0%BA_%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0%202.ipynb)
+---
 
-[соц-дем данные о подписчихах в формате csv](https://github.com/apolesiuk/open_data/blob/main/artists-followers.csv)
+## Краткое описание
+Для проекта был проведен сбор данных о подписчиках из сообществ социальной сети ВКонтакте. Были выбраны сообщества четырёх художников с аудиторией более 2000 человек у каждого. Все выбранные художники рисуют в digital с упором на изображение лошадей.
 
-[соц-дем данные о подписчихах в формате словаря](https://github.com/apolesiuk/open_data/blob/main/artists_followers_info)
+---
 
-[Словарь, где ключи — названия групп, значения — ID подписчиков](https://github.com/apolesiuk/open_data/blob/main/artists_followers)
+## Метод
+Данные были собраны через API ВКонтакте, токен для которого получен с помощью создания веб-приложения. Далее данные были преобразованы в датафрейм и сохранены в формате [csv файла](https://github.com/apolesiuk/open_data/blob/main/artists-followers.csv) для удобства их дальнейшего использования. Так же в процессе был сохранён [словарь, где ключи — названия групп, значения — ID подписчиков]( https://github.com/apolesiuk/open_data/blob/main/artists_followers) и 
+[словарь с соц-дем данными о подписчиках](https://github.com/apolesiuk/open_data/blob/main/artists_followers_info). 
+
+Подробнее с деталями работы по сбору данных и визуализацией некоторых признаков можно ознакомиться в [тетрадке с кодом](https://github.com/apolesiuk/open_data/blob/main/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D0%9E%D0%BB%D0%B5%D1%81%D0%B8%D1%8E%D0%BA_%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0%202.ipynb)
+
+
+---
+
+Проект выполнила [Олесиюк Анастасия](https://github.com/apolesiuk), ОП Медиакоммуникации, БМД 232. Март 2025
+
+Опубликованные в репозитории файлы могут распространяться по лицензии [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
